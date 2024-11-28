@@ -1,0 +1,345 @@
+{
+  "system_info": {
+    "cpu": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "gpu": "N/A",
+    "memory": "7.61GB",
+    "os": "Linux 5.15.146.1-microsoft-standard-WSL2",
+    "cpu_cores": 6,
+    "cpu_threads": 12
+  },
+  "benchmarks": [
+    {
+      "framework": "openmp",
+      "algorithm": "matrix_multiplication",
+      "input_size": 5,
+      "iterations": [
+        {
+          "execution_time_ms": 28.72943878173828,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.265831",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 28.20110321044922,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.294593",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 24.736881256103516,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.319971",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 36.685943603515625,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.357428",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 37.94980049133301,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.396702",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "matrix_multiplication",
+      "input_size": 10,
+      "iterations": [
+        {
+          "execution_time_ms": 27.062416076660156,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.424976",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 21.811485290527344,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.447459",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 32.052040100097656,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.480335",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 22.549867630004883,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.503648",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 26.768922805786133,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.531354",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "matrix_multiplication",
+      "input_size": 15,
+      "iterations": [
+        {
+          "execution_time_ms": 28.601408004760742,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.560720",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 26.489973068237305,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.587848",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 29.165267944335938,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.617547",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 29.353857040405273,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.647497",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 29.68120574951172,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.679587",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "monte_carlo",
+      "input_size": 5,
+      "iterations": [
+        {
+          "execution_time_ms": 42.516469955444336,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.723166",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 41.213035583496094,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.764733",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 40.5268669128418,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.806520",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 30.589818954467773,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.837517",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 41.342735290527344,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.879479",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "monte_carlo",
+      "input_size": 10,
+      "iterations": [
+        {
+          "execution_time_ms": 41.11886024475098,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.921284",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 37.21165657043457,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:41.959031",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 46.22650146484375,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.005816",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 34.41476821899414,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.040593",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 24.900197982788086,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.066113",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "monte_carlo",
+      "input_size": 15,
+      "iterations": [
+        {
+          "execution_time_ms": 36.49306297302246,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.103662",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 35.71510314941406,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.140288",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 35.45641899108887,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.176971",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 39.05510902404785,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.217033",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 36.58103942871094,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.254308",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "mandelbrot",
+      "input_size": 5,
+      "iterations": [
+        {
+          "execution_time_ms": 20.162582397460938,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.277667",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 27.022361755371094,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.305392",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 22.890090942382812,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.330002",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 24.459123611450195,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.355123",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 19.2716121673584,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.380830",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "mandelbrot",
+      "input_size": 10,
+      "iterations": [
+        {
+          "execution_time_ms": 24.03569221496582,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.407059",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 24.56498146057129,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.432607",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 23.876667022705078,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.457446",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 23.314714431762695,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.483826",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 22.820234298706055,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.507363",
+          "hardware_metrics": {}
+        }
+      ]
+    },
+    {
+      "framework": "openmp",
+      "algorithm": "mandelbrot",
+      "input_size": 15,
+      "iterations": [
+        {
+          "execution_time_ms": 26.389598846435547,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.534690",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 26.350736618041992,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.562328",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 24.585247039794922,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.587686",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 26.035308837890625,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.614350",
+          "hardware_metrics": {}
+        },
+        {
+          "execution_time_ms": 25.3903865814209,
+          "memory_usage_mb": 0.0,
+          "timestamp": "2024-11-28T11:57:42.640365",
+          "hardware_metrics": {}
+        }
+      ]
+    }
+  ]
+}
